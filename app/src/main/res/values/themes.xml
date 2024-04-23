@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QTA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Otros atributos de estilo -->
+        <item name="colorPrimary">#5AE4A8</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <!-- Otros atributos de estilo -->
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">#5AE4A8</item> <!-- Color de fondo del botón -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto del botón -->
+        <item name="android:padding">12dp</item> <!-- Relleno del botón -->
+        <item name="android:layout_margin">8dp</item> <!-- Margen del botón -->
+        <item name="android:radius">20dp</item> <!-- Radio de los bordes -->
+    </style>
+
+    <style name="AppTheme.TextInput" parent="Widget.AppCompat.EditText">
+        <item name="strokeColor">#5AE4A8</item>
+        <item name="android:textColorHint">#CCCCCC</item> <!-- Color del hint -->
+        <item name="android:padding">12dp</item> <!-- Relleno del TextInput -->
+        <item name="android:layout_margin">8dp</item> <!-- Margen del TextInput -->
+        <item name="android:radius">20dp</item> <!-- Radio de los bordes -->
+    </style>
+  <!-- Base application theme. -->
+    <style name="Base.Theme.QTA" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+</resources>
